@@ -25,6 +25,7 @@ variables:
                libwebkit2gtk-4.0-dev libgcr-3-dev libenchant-dev
                libunwind-dev iso-codes libgoa-1.0-dev itstool gettext
                libmessaging-menu-dev libunity-dev libjson-glib-dev
+               libjavascriptcoregtk-4.0-dev
   UBUNTU_TEST_DEPS: xauth xvfb
 
 #
