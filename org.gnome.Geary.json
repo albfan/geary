@@ -125,10 +125,12 @@
             "buildsystem": "meson",
             "builddir": true,
             "sources": [
+                /* Use "dir" instead of "git" so local and CI builds */
+                /* use the current working directory and branch, not */
+                /* master every time,                                */
                 {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/geary.git",
-                    "branch": "master"
+                    "type": "dir",
+                    "path": "."
                 }
             ]
         }
